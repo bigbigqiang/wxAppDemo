@@ -5,7 +5,7 @@ Page({
         id: 'view',
         name: '视图容器',
         open: false,
-        pages: ['view', 'scroll-view', 'swiper']
+        pages: ['view', 'scroll-view', 'swiper','left-slide']
       }, {
         id: 'content',
         name: '基础内容',

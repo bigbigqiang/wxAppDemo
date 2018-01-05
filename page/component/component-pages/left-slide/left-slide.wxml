@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">swiper</text>
+    <text class="page__desc">swiper</text>
+  </view>
+  <view class="item-box">
+    <view class="items">
+      <view wx:for="{{list}}" wx:key="{{index}}" class="item">
+        <view bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index="{{index}}" style="{{item.txtStyle}}" class="inner txt">
+          {{item.txt}}</view>
+        <view data-index="{{index}}" bindtap="delItem" class="inner del">删除</view>
+      </view>
+    </view>
+  </view>
+</view>

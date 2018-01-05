@@ -21,8 +21,14 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "left-slide",
+					"pathName": "page/component/component-pages/left-slide/left-slide"
+				}
+			]
 		}
 	}
 }
